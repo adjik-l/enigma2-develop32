@@ -15,7 +15,9 @@ dist_install_DATA = \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
 	LiberationSans-Regular.ttf \
-	wqy-microhei.ttc
+	wqy-microhei.ttc \
+        DejaVuSansCondensed-Bold.ttf \
+        OpenSans-Regular.ttf
 
 install-data-hook:
 	cd $(DESTDIR)$(datadir)/fonts && \
