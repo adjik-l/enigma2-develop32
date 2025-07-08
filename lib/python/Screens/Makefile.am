@@ -87,4 +87,5 @@ install_PYTHON = \
 	Volume.py \
 	VuplusKexec.py \
 	Wizard.py \
-	WizardLanguage.py
+	WizardLanguage.py \
+        CopyFiles.py
